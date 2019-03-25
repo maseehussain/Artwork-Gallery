@@ -1,5 +1,6 @@
 [
   {
+    "id": 1,
     "image": "https://static.wixstatic.com/media/5b517d_10820e2e44c54888a7193a3416a22540~mv2.jpg/v1/fill/w_801,h_1132,al_c,q_90,usm_0.66_1.00_0.01/5b517d_10820e2e44c54888a7193a3416a22540~mv2.webp",
     "nameOfWork": "Blue Grey(Sula)",
     "material": "Hand painted black and white photograph",
@@ -7,15 +8,17 @@
     "price": "5000"
   },
   {
+    "id": 2,
     "image": "https://static.wixstatic.com/media/5b517d_10820e2e44c54888a7193a3416a22540~mv2.jpg/v1/fill/w_801,h_1132,al_c,q_90,usm_0.66_1.00_0.01/5b517d_10820e2e44c54888a7193a3416a22540~mv2.webp",
-    "nameOfWork": "Blue Grey(Sula)",
+    "nameOfWork": "Blue Grey(Sula2)",
     "material": "Hand painted black and white photograph",
     "yearCreated": "2017",
     "price": "6000"
   },
   {
+    "id": 3,
     "image": "https://static.wixstatic.com/media/5b517d_10820e2e44c54888a7193a3416a22540~mv2.jpg/v1/fill/w_801,h_1132,al_c,q_90,usm_0.66_1.00_0.01/5b517d_10820e2e44c54888a7193a3416a22540~mv2.webp",
-    "nameOfWork": "Blue Grey(Sula)",
+    "nameOfWork": "Blue Grey(Sula3)",
     "material": "Hand painted black and white photograph",
     "yearCreated": "2017",
     "price": "7000"

@@ -2,13 +2,14 @@ import React from "react";
 import ReactDOM from "react-dom";
 
 import "./styles.css";
+import "bootstrap-css-only";
 
-import ArtworkIndex from "./components/artworkIndex";
+import ArtworksIndex from "./components/artworksIndex";
 
 function App() {
   return (
-    <div className="App">
-      <ArtworkIndex />
+    <div className="container">
+      <ArtworksIndex />
     </div>
   );
 }
