@@ -7,7 +7,7 @@ class ArtworksShow extends React.Component {
   };
 
   componentDidMount() {
-    const { id } = this.props.match.params.id;
+    const { id } = this.props.match.params;
     Axios.get(`https://api.jsonbin.io/b/5c99f87e1c56bb1ec38d88aa`)
       .then(res => this.setState({ artwork: res.data[id] }))
       .catch(err => console.log(err));
