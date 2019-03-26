@@ -1,18 +1,26 @@
 import React from "react";
+import ReactDOM from "react-dom";
+import { BrowserRouter as Router } from "react-router-dom";
 
 import "./styles.css";
 import "bootstrap-css-only";
 
-import ArtworksIndex from "./components/artworksIndex";
+import Routes from "./components/utility/Routes";
 
 class App extends React.Component {
   render() {
     return (
-      <div className="container">
-        <ArtworksIndex />
-      </div>
+      <Router>
+        <div className="container">
+          <header />
+          <main>
+            <Routes />
+          </main>
+        </div>
+      </Router>
     );
   }
 }
 
-export default App;
+const rootElement = document.getElementById("root");
+ReactDOM.render(<App />, rootElement);
