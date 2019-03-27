@@ -6,7 +6,7 @@ import "./Navbar.css";
 class Navbar extends React.Component {
   render() {
     return (
-      <nav className="navbar navbar-expand-lg">
+      <nav className="navbar navbar-expand-lg fixed-top">
         <Link className="navbar-brand logo" to="/">
           Galeria
         </Link>
