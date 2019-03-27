@@ -2,6 +2,8 @@ import React from "react";
 import Axios from "axios";
 import { Link } from "react-router-dom";
 
+import "./ArtworksIndex.css";
+
 class ArtworksIndex extends React.Component {
   state = {
     artworksData: []
@@ -23,10 +25,9 @@ class ArtworksIndex extends React.Component {
                 <Link to={`/artwork/${artwork.id}`}>
                   <img
                     src={artwork.image}
-                    className="img-index img-thumbnail img-responsive"
+                    className="img-index img-responsive"
                   />
                 </Link>
-                <h2>{artwork.nameOfWork}</h2>
               </div>
             );
           })}

@@ -6,12 +6,12 @@ class ArtworksHome extends React.Component {
   render() {
     return (
       <div className="home-page hero">
-        <h1>Galeria</h1>
+        <h1>Thomas Merton - </h1>
         <p>
           “Art enables us to find ourselves and lose ourselves at the same
-          time.” - Thomas Merton
+          time.”
         </p>
-        <img src="https://40.media.tumblr.com/f2916759544c106d91c28a9e0fd2cb94/tumblr_n7qhrzxUiv1sfie3io1_1280.jpg" />
+        <img src="http://www.zengarage.com.au/wp-content/uploads/2011/10/banksy-grenade.jpg" />
         <div className="bar" />
       </div>
     );

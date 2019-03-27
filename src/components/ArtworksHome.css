@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Expletus+Sans:600);
+@import url(https://fonts.googleapis.com/css?family=Permanent+Marker);
 /*==========SCALE-IN==========*/
 @-webkit-keyframes scale-in {
   0% {
@@ -39,15 +39,10 @@
   }
 }
 
-.container-fluid {
-  padding-right: 0;
-  padding-left: 0;
-}
-
 .home-page {
   width: 100%;
   overflow: hidden;
-  font-family: "Expletus Sans", cursive;
+  font-family: "Permanent Marker", cursive;
 }
 .hero {
   width: 100%;
@@ -55,9 +50,8 @@
   height: 587px;
   text-align: center;
   margin: 0 auto;
-  background: #392f28;
   position: relative;
-  color: #392f28;
+  color: rgba(255, 255, 255, 0.7);
 }
 
 .hero h1 {
@@ -88,24 +82,24 @@
   height: 200px;
   background: -moz-linear-gradient(
     289deg,
-    #c60a09 0%,
-    #f23332 36%,
-    #c60a09 100%
+    #000000 0%,
+    #323232 50%,
+    #000000 100%
   );
   background: -webkit-linear-gradient(
     289deg,
-    #c60a09 0%,
-    #f23332 36%,
-    #c60a09 100%
+    #000000 0%,
+    #323232 50%,
+    #000000 100%
   );
   background: -ms-linear-gradient(
     289deg,
-    #c60a09 0%,
-    #f23332 36%,
-    #c60a09 100%
+    #000000 0%,
+    #323232 50%,
+    #000000 100%
   );
-  background: linear-gradient(161deg, #c60a09 0%, #f23332 36%, #c60a09 100%);
-  opacity: 0.3;
+  background: linear-gradient(161deg, #000000 0%, #323232 50%, #000000 100%);
+  opacity: 0.7;
   position: absolute;
   z-index: 0;
   left: 0;
