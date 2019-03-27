@@ -2,6 +2,8 @@ import React from "react";
 import Axios from "axios";
 import { Link } from "react-router-dom";
 
+import Search from "./utility/Search";
+
 import "./ArtworksIndex.css";
 
 class ArtworksIndex extends React.Component {
@@ -10,7 +12,7 @@ class ArtworksIndex extends React.Component {
   };
 
   componentDidMount() {
-    Axios.get(`https://api.jsonbin.io/b/5c99f87e1c56bb1ec38d88aa`)
+    Axios.get(`https://api.jsonbin.io/b/5c9b88891c56bb1ec38efc1d/3`)
       .then(res => this.setState({ artworksData: res.data }))
       .catch(err => console.log(err));
   }
@@ -18,7 +20,7 @@ class ArtworksIndex extends React.Component {
   render() {
     return (
       <div className="index-page">
-        <div className="row">
+        {/* <div className="row">
           {this.state.artworksData.map(artwork => {
             return (
               <div key={artwork.id} className="col-md-4">
@@ -31,7 +33,8 @@ class ArtworksIndex extends React.Component {
               </div>
             );
           })}
-        </div>
+        </div> */}
+        <Search />
       </div>
     );
   }

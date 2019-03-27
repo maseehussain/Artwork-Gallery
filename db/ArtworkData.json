@@ -1,26 +1,29 @@
 [
   {
-    "id": 1,
-    "image": "https://static.wixstatic.com/media/5b517d_10820e2e44c54888a7193a3416a22540~mv2.jpg/v1/fill/w_801,h_1132,al_c,q_90,usm_0.66_1.00_0.01/5b517d_10820e2e44c54888a7193a3416a22540~mv2.webp",
+    "id": 0,
+    "image": "https://www.brushwiz.com/images/paintings/m/Mona_Lisa_by_Leonardo_Da_Vinci.jpg",
     "nameOfWork": "Blue Grey(Sula)",
-    "material": "Hand painted black and white photograph",
+    "material": "Hand painted",
     "yearCreated": "2016",
-    "price": "5000"
+    "price": "5000",
+    "tags": "Mona Lisa"
+  },
+  {
+    "id": 1,
+    "image": "https://www.brushwiz.com/images/top-100/top_100_paintings_the_scream_by_edvard_munch.jpg",
+    "nameOfWork": "The Scream",
+    "material": "Hand painted",
+    "yearCreated": "2017",
+    "price": "6000",
+    "tags": "The Scream"
   },
   {
     "id": 2,
-    "image": "https://static.wixstatic.com/media/5b517d_10820e2e44c54888a7193a3416a22540~mv2.jpg/v1/fill/w_801,h_1132,al_c,q_90,usm_0.66_1.00_0.01/5b517d_10820e2e44c54888a7193a3416a22540~mv2.webp",
-    "nameOfWork": "Blue Grey(Sula2)",
-    "material": "Hand painted black and white photograph",
+    "image": "https://www.brushwiz.com/images/top-100/top_100_paintings_the_girl_with_a_pearl_earring_by_johannes_vermeer.jpg",
+    "nameOfWork": "The Girl With A Pearl Earring",
+    "material": "Hand Painted",
     "yearCreated": "2017",
-    "price": "6000"
-  },
-  {
-    "id": 3,
-    "image": "https://static.wixstatic.com/media/5b517d_10820e2e44c54888a7193a3416a22540~mv2.jpg/v1/fill/w_801,h_1132,al_c,q_90,usm_0.66_1.00_0.01/5b517d_10820e2e44c54888a7193a3416a22540~mv2.webp",
-    "nameOfWork": "Blue Grey(Sula3)",
-    "material": "Hand painted black and white photograph",
-    "yearCreated": "2017",
-    "price": "7000"
+    "price": "7000",
+    "tags": "The Girl With A Pearl Earring"
   }
 ]
