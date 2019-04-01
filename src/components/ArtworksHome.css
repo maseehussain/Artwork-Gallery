@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Permanent+Marker);
+@import url(https://fonts.googleapis.com/css?family=Caveat);
 /*==========SCALE-IN==========*/
 @-webkit-keyframes scale-in {
   0% {
@@ -42,7 +42,6 @@
 .home-page {
   width: 100%;
   overflow: hidden;
-  font-family: "Permanent Marker", cursive;
 }
 .hero {
   width: 100%;
@@ -52,23 +51,25 @@
   margin: 0 auto;
   position: relative;
   color: rgba(255, 255, 255, 0.7);
+  font-family: "Caveat", cursive;
 }
 
 .hero h1 {
-  font-size: 4.1em;
+  font-size: 3.1em;
   margin: auto;
   position: absolute;
-  top: 230px;
+  top: 250px;
   left: 0;
   right: 0;
   bottom: 0;
   z-index: 1;
 }
 .hero p {
-  font-size: 1.5em;
+  font-size: 2em;
+  font-weight: bold;
   margin: auto;
   position: absolute;
-  top: 330px;
+  top: 320px;
   left: 0;
   right: 0;
   bottom: 0;
@@ -103,7 +104,7 @@
   position: absolute;
   z-index: 0;
   left: 0;
-  top: 200px;
+  top: 220px;
   -ms-transform-origin: 100% 0%;
   -webkit-transform-origin: 100% 0%;
   transform-origin: 100% 0%;

@@ -11,7 +11,7 @@ class ArtworksIndex extends React.Component {
   };
 
   componentDidMount() {
-    Axios.get(`https://api.jsonbin.io/b/5c9b88891c56bb1ec38efc1d/3`)
+    Axios.get(`https://api.jsonbin.io/b/5ca21ae724f5074645e92ada`)
       .then(res => this.setState({ artworksData: res.data }))
       .catch(err => console.log(err));
   }

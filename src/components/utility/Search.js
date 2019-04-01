@@ -1,5 +1,6 @@
 import React from "react";
 import Axios from "axios";
+import Posed from "react-pose";
 import { Link } from "react-router-dom";
 
 import "./Search.css";
@@ -15,7 +16,7 @@ class Search extends React.Component {
   }
 
   componentDidMount() {
-    Axios.get(`https://api.jsonbin.io/b/5c9b88891c56bb1ec38efc1d/3`)
+    Axios.get(`https://api.jsonbin.io/b/5ca21ae724f5074645e92ada`)
       .then(res => this.setState({ artworksData: res.data }))
       .catch(err => console.log(err));
     this.refs.search.focus();
@@ -37,6 +38,23 @@ class Search extends React.Component {
       });
     }
 
+    const BoxShadow = Posed.img({
+      hoverable: true,
+      pressable: true,
+      init: {
+        scale: 1,
+        boxShadow: "0px 0px 0px rgba(0,0,0,0)"
+      },
+      hover: {
+        scale: 1.1,
+        boxShadow: "0px 5px 10px rgba(0,0,0,0.6)"
+      },
+      press: {
+        scale: 1.1,
+        boxShadow: "0px 2px 5px rgba(0,0,0,0.1)"
+      }
+    });
+
     return (
       <div className="row">
         <div className="col-12">
@@ -52,7 +70,10 @@ class Search extends React.Component {
           return (
             <div key={artwork.id} className="col-md-4">
               <Link to={`/artwork/${artwork.id}`}>
-                <img src={artwork.image} className="img-index img-responsive" />
+                <BoxShadow
+                  src={artwork.image}
+                  className="img-index img-responsive"
+                />
               </Link>
             </div>
           );

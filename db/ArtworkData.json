@@ -2,7 +2,7 @@
   {
     "id": 0,
     "image": "https://www.brushwiz.com/images/paintings/m/Mona_Lisa_by_Leonardo_Da_Vinci.jpg",
-    "nameOfWork": "Blue Grey(Sula)",
+    "nameOfWork": "Mona Lisa",
     "material": "Hand painted",
     "yearCreated": "2016",
     "price": "5000",
@@ -19,6 +19,33 @@
   },
   {
     "id": 2,
+    "image": "https://www.brushwiz.com/images/top-100/top_100_paintings_the_girl_with_a_pearl_earring_by_johannes_vermeer.jpg",
+    "nameOfWork": "The Girl With A Pearl Earring",
+    "material": "Hand Painted",
+    "yearCreated": "2017",
+    "price": "7000",
+    "tags": "The Girl With A Pearl Earring"
+  },
+  {
+    "id": 3,
+    "image": "https://www.brushwiz.com/images/paintings/m/Mona_Lisa_by_Leonardo_Da_Vinci.jpg",
+    "nameOfWork": "Mona Lisa",
+    "material": "Hand painted",
+    "yearCreated": "2016",
+    "price": "5000",
+    "tags": "Mona Lisa"
+  },
+  {
+    "id": 4,
+    "image": "https://www.brushwiz.com/images/top-100/top_100_paintings_the_scream_by_edvard_munch.jpg",
+    "nameOfWork": "The Scream",
+    "material": "Hand painted",
+    "yearCreated": "2017",
+    "price": "6000",
+    "tags": "The Scream"
+  },
+  {
+    "id": 5,
     "image": "https://www.brushwiz.com/images/top-100/top_100_paintings_the_girl_with_a_pearl_earring_by_johannes_vermeer.jpg",
     "nameOfWork": "The Girl With A Pearl Earring",
     "material": "Hand Painted",

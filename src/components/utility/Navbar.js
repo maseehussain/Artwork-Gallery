@@ -8,7 +8,7 @@ class Navbar extends React.Component {
     return (
       <nav className="navbar navbar-expand-lg fixed-top">
         <Link className="navbar-brand logo" to="/">
-          Galeria
+          Galería
         </Link>
         <button
           className="navbar-toggler"
@@ -23,9 +23,9 @@ class Navbar extends React.Component {
         </button>
         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div className="navbar-nav">
-            {/* <Link className="nav-item nav-link" to="/">
+            <Link className="nav-item nav-link" to="/">
               Home
-            </Link> */}
+            </Link>
             <Link className="nav-item nav-link" to="/artworkGallery">
               Artwork Gallery
             </Link>

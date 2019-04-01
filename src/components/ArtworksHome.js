@@ -16,15 +16,15 @@ class ArtworksHome extends React.Component {
     });
     return (
       <div className="home-page hero">
-        <h1>Thomas Merton - </h1>
-        <p>
+        <h1>
           “Art enables us to find ourselves and lose ourselves at the same
           time.”
-        </p>
+        </h1>
+        <p>- Thomas Merton</p>
         <Img
           initialPose="dull"
           pose="coloured"
-          src="https://el-paso-museum-of-art-production.s3.amazonaws.com/collections/images/000/000/002/optimized/Dugan.jpg?1516833183"
+          src="https://i.imgur.com/qKEprD6.jpg"
         />
         <div className="bar" />
       </div>
